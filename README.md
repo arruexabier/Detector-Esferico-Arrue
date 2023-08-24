@@ -5,5 +5,5 @@ En el Construct() que se encuentra en este archivo se empieza definiendo todo el
 
 En "generator.cc" se generá un fotón en una dirección aleatoria.
 
-El archivo "dist.py" es el que se usa para crear las graficas apartir de los archivos que se crean con del macro "det.mac"."detgas.mac" es el macro equivalente cuando se coloca el Xenon gas y la distancia del PMT cambia.
+El archivo "dist.py" es el que se usa para crear las graficas apartir de los archivos que se crean con el macro "det.mac"."detgas.mac" es el macro equivalente cuando se coloca el Xenon gas y la distancia del PMT cambia.
 
