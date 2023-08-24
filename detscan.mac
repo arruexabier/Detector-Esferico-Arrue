@@ -1,3 +1,0 @@
-/config/DetPos {z}
-/run/reinitializeGeometry
-/run/beamOn 200000
