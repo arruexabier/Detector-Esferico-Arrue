@@ -1,0 +1,160 @@
+/config/CaseA false
+/config/CaseB false
+/config/CaseC false
+/config/CaseD false
+
+
+
+#MESH 1
+/config/transparency 1
+
+#CASO 0
+/analysis/openFile Caso0.csv
+/control/loop detscan.mac z -10 1 1
+/analysis/write
+/analysis/closeFile
+
+
+#CASO A
+/config/CaseA true
+/run/reinitializeGeometry
+/analysis/openFile CasoA.csv
+/control/loop detscan.mac z -10 1 1
+/analysis/write
+/analysis/closeFile
+
+
+#CASO B
+/config/CaseB true
+/run/reinitializeGeometry
+/analysis/openFile CasoB.csv
+/control/loop detscan.mac z -10 1 1
+/analysis/write
+/analysis/closeFile
+
+
+#CASO C
+/config/CaseC true
+/run/reinitializeGeometry
+/analysis/openFile CasoC.csv
+/control/loop detscan.mac z -10 1 1
+/analysis/write
+/analysis/closeFile
+
+
+#CASO D
+/config/CaseD true
+/run/reinitializeGeometry
+/analysis/openFile CasoD.csv
+/control/loop detscan.mac z -10 1 1
+/analysis/write
+/analysis/closeFile
+
+/config/CaseA false
+/config/CaseB false
+/config/CaseC false
+/config/CaseD false
+
+
+
+
+
+#MESH 0.9
+/config/transparency 0.9
+
+#CASO 0
+/analysis/openFile Caso0Mesh09.csv
+/control/loop detscan.mac z -10 1 1
+/analysis/write
+/analysis/closeFile
+
+
+#CASO A
+/config/CaseA true
+/run/reinitializeGeometry
+/analysis/openFile CasoAMesh09.csv
+/control/loop detscan.mac z -10 1 1
+/analysis/write
+/analysis/closeFile
+
+
+#CASO B
+/config/CaseB true
+/run/reinitializeGeometry
+/analysis/openFile CasoBMesh09.csv
+/control/loop detscan.mac z -10 1 1
+/analysis/write
+/analysis/closeFile
+
+
+#CASO C
+/config/CaseC true
+/run/reinitializeGeometry
+/analysis/openFile CasoCMesh09.csv
+/control/loop detscan.mac z -10 1 1
+/analysis/write
+/analysis/closeFile
+
+
+#CASO D
+/config/CaseD true
+/run/reinitializeGeometry
+/analysis/openFile CasoDMesh09.csv
+/control/loop detscan.mac z -10 1 1
+/analysis/write
+/analysis/closeFile
+
+
+
+/config/CaseA false
+/config/CaseB false
+/config/CaseC false
+/config/CaseD false
+
+
+
+
+#MESH 0.8
+/config/transparency 0.8
+
+#CASO 0
+/analysis/openFile Caso0Mesh08.csv
+/control/loop detscan.mac z -10 1 1
+/analysis/write
+/analysis/closeFile
+
+
+#CASO A
+/config/CaseA true
+/run/reinitializeGeometry
+/analysis/openFile CasoAMesh08.csv
+/control/loop detscan.mac z -10 1 1
+/analysis/write
+/analysis/closeFile
+
+
+#CASO B
+/config/CaseB true
+/run/reinitializeGeometry
+/analysis/openFile CasoBMesh08.csv
+/control/loop detscan.mac z -10 1 1
+/analysis/write
+/analysis/closeFile
+
+
+#CASO C
+/config/CaseC true
+/run/reinitializeGeometry
+/analysis/openFile CasoCMesh08.csv
+/control/loop detscan.mac z -10 1 1
+/analysis/write
+/analysis/closeFile
+
+
+#CASO D
+/config/CaseD true
+/run/reinitializeGeometry
+/analysis/openFile CasoDMesh08.csv
+/control/loop detscan.mac z -10 1 1
+/analysis/write
+/analysis/closeFile
